@@ -153,6 +153,7 @@ color: #0d2c40 ;
  margin:12% 10% 12% 25%;
     padding-bottom: 0%;
   }
+  
   .d-flex{
     flex-direction: column!important;
   }
@@ -161,6 +162,10 @@ color: #0d2c40 ;
   }
   .sec{
     display: block!important;
+    
+  }
+  .header1{
+    margin:30% auto;
   }
   .last{
     background-color:#21bf73;
