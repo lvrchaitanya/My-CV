@@ -210,7 +210,15 @@ h4{
 
 
 @media screen and (max-width: 1200px) {
-  .naverig{
+  .header1{
+    width:85%;
+    margin-top: 20%;
+    }
+    .card-title
+    {
+    max-width: 90%;
+    }
+    .naverig{
     font-size: 1.7rem;
     margin-left: 30%;
   }
@@ -260,6 +268,7 @@ margin-top: 8%;
   margin-top: 8%;
 }
 .btn{
+  padding: 7% auto;
   font-size: 1.5rem;
   width:30%
 }

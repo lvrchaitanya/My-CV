@@ -148,7 +148,11 @@ color: #0d2c40 ;
 
 
 @media screen and (max-width: 1200px) {
-
+  img{
+    width:50%;
+ margin:12% 10% 12% 25%;
+    padding-bottom: 0%;
+  }
   .d-flex{
     flex-direction: column!important;
   }
@@ -162,7 +166,7 @@ color: #0d2c40 ;
     background-color:#21bf73;
     width: 100%;
     height:auto;
-    padding-left: 25%;
+    padding-left: 22%;
   }
 
   h1{
