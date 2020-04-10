@@ -1,0 +1,361 @@
+
+
+body{
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+/* navigation bar */
+.navbar{
+
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0;
+}
+.nav-item{
+  margin:auto 10px ;
+}
+.naverig{
+  font-size: 1.7rem;
+  margin-left: 46%;
+}
+.navbar-brand{
+  padding: 0 20px;
+  font-size: 2rem;
+}
+
+
+.header1{
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+width:90%;
+margin: 5% auto;
+  height:auto;
+  background-color: #0d2c40;
+  /* #8474d4; */
+  /* #5c5191; */
+  border-radius: 2rem;
+
+  font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+}
+
+.headtext{
+
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 3% 5%;
+    text-align: left;
+  font-size: 3rem;
+}
+
+h6{
+  display:inline-block;
+  margin: 0;
+font-size: 2.5rem;
+}
+h1{
+  padding-top: 2%;
+  font-size: 2rem;
+  padding-bottom: 0;
+}
+h5{
+  display:inline-block;
+  margin: 0;
+  font-size: 2.5rem;
+}
+h3{
+  display:inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
+  color:  green;
+}
+
+.btn{
+border: 1px solid;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  display:block;
+  margin: 3% auto;
+  font-size: 2rem;
+  border-radius: 0.6rem;
+  width: 20%;
+  color:white ;
+}
+
+
+/* about part */
+.middle{
+
+  background-color:  #0d2c40;
+  width :100%;
+  margin:0;
+  padding-top: 0;
+  padding-bottom: 80px;
+  height: auto;
+}
+
+.card{
+    box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color:#0d2c40;
+  text-align: center;
+  margin: 80px 120px;
+  width:80%;
+
+border-radius: 1rem;
+font-family: 'Montserrat', sans-serif;
+color:white;
+/* #393e46; */
+
+
+}
+
+.card-img{
+  text-align: center;
+  margin: 40px 20px;
+  border-radius: 100%;
+}
+
+.cardapp{
+  padding-top: 20px;
+margin-left: 10%
+}
+
+
+.cardweb{
+  margin-top: 7%;
+
+  padding-top: 15px;
+  padding-bottom: 0;
+margin-left: 45%;
+}
+
+
+.cardprog{
+  margin-top: 7%;
+    padding-top: 25px;
+padding-bottom: 50px;
+margin-left: 10%
+}
+
+p{
+  padding-top: 10px;
+}
+/* footer */
+last{
+  background-color:white;
+  width: 100%;
+  height:auto;
+  padding-left: 35%;
+}
+.fab{
+color: #0d2c40 ;
+  padding: 40px 50px 20px 50px;
+
+}
+
+.copyright{
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  padding-left:0;
+color:#0d2c40 ;
+}
+
+.favgit{
+
+  padding:5px 0 0 10px;
+  margin-right:0;
+}
+
+
+h4{
+  display:inline-block;
+
+  font-family: monospace;
+    font-weight:bolder;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+@keyframes example {
+  from {  margin-left: -70%;}
+  to {margin-left: 70%;}
+}
+.favcar{
+  color: #0d2c40;
+  margin: 0;
+  padding: 0;
+  animation-name: example;
+  animation-duration: 18s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+}
+
+
+@media screen and (max-width: 1200px) {
+  .naverig{
+    font-size: 1.7rem;
+    margin-left: 30%;
+  }
+
+  @keyframes example {
+      from {  margin-left: -90%;}
+      to {margin-left: 90%;}
+    }
+
+  .webdev2{
+    width:80%;
+  }
+  .appdev{
+    width:80%;
+  }
+  .programming{
+    width:80%;
+  }
+
+  .cardapp{
+    padding-top: 20px;
+    margin:auto;
+  }
+  .cardweb{
+  margin:auto;
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+
+  .cardprog{
+    margin:auto;
+      padding-top: 25px;
+  padding-bottom: 50px;
+  }
+
+
+
+.d-flex{
+
+  flex-direction: column;
+}
+.d-flex > .webdev{
+  margin: 0 auto 50px auto;
+  width:40%;
+  border-radius: 1rem;
+}
+
+.cardweb{
+margin-top: 8%;
+}
+.cardprog{
+  margin-top: 8%;
+}
+.btn{
+  font-size: 1.5rem;
+  width:30%
+}
+}
+
+
+.row{
+  margin-right: 0;
+  margin-left: 0;
+
+}
+.column {
+  float: left;
+  width: 50%;
+      width: 550px;
+      padding-right: 30px;
+      margin-right: 120px;
+      margin-left: 100px;
+
+}
+.column2{
+
+    width: 520px;
+    margin-left: 100px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#skills{
+  padding-bottom: 5%;
+}
+#skillli{
+    position: relative;
+    list-style: none;
+    margin: 50px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+#skillli:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color:white;
+    border-radius: 1000px;
+}
+
+#skillli:after{
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: green;
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+#skillli.html:after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 50%;
+    }
+}
+
+#skillli.css:after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 90%;
+    }
+}
+
+#skillli.js:after {
+    animation-name: js;
+}
+
+@keyframes js {
+    to {
+        width: 50%;
+    }
+}
+
+#skillli.ng:after {
+    animation-name: ng;
+}
+
+@keyframes ng {
+    to {
+        width: 60%;
+    }
+}
