@@ -113,7 +113,7 @@ color:white;
 }
 .card-title
 {
-  width: 70%;
+  max-width: 70%;
 }
 .card-img{
   text-align: center;
