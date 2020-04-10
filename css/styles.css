@@ -111,11 +111,16 @@ color:white;
 
 
 }
-
+.card-title
+{
+  max-width: 70%;
+}
 .card-img{
   text-align: center;
   margin: 40px 20px;
-  border-radius: 100%;
+  border-radius: 5rem;
+  width:90%;
+  padding: auto;
 }
 
 .cardapp{
@@ -134,10 +139,17 @@ margin-left: 45%;
 
 
 .cardprog{
+  padding-left: 20px;
+
   margin-top: 7%;
     padding-top: 25px;
 padding-bottom: 50px;
 margin-left: 10%
+
+}
+.programming{
+  padding-top:15%;
+  border-radius: 4rem;
 }
 
 p{
@@ -320,8 +332,14 @@ margin-top: 8%;
     animation-fill-mode: forwards;
 }
 
+
 #skillli.html:after {
     animation-name: html;
+}
+#skills:hover{
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
 }
 
 @keyframes html {
