@@ -4,6 +4,7 @@ body{
   margin:0;
   padding:0;
   text-align: center;
+
 }
 
 /* navigation bar */
@@ -11,26 +12,31 @@ body{
 
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0;
+
 }
 .nav-item{
   margin:auto 10px ;
 }
 .naverig{
   font-size: 1.7rem;
-  margin-left: 46%;
+  margin-left: 47%;
 }
 .navbar-brand{
   padding: 0 20px;
   font-size: 2rem;
+  padding-left: 0.5%;
 }
 
-
+.favcir{
+  padding: 6% 5% 10% 0;
+  color: #21bf73;
+}
 .header1{
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 width:90%;
-margin: 5% auto;
+margin: 12% auto 5% auto;
   height:auto;
   background-color: #0d2c40;
   /* #8474d4; */
@@ -39,18 +45,20 @@ margin: 5% auto;
 
   font-family: 'Montserrat', sans-serif;
 font-weight: bold;
+
 }
 
 .headtext{
 
   color:white;
-  font-family: 'Montserrat', sans-serif;
+
   padding: 3% 5%;
     text-align: left;
   font-size: 3rem;
 }
 
-h6{
+h6,h1{
+  font-family: 'Montserrat', sans-serif;
   display:inline-block;
   margin: 0;
 font-size: 2.5rem;
@@ -61,16 +69,18 @@ h1{
   padding-bottom: 0;
 }
 h5{
+  font-family: 'Montserrat', sans-serif;
   display:inline-block;
   margin: 0;
   font-size: 2.5rem;
 }
 h3{
+  font-family: 'Montserrat', sans-serif;
   display:inline-block;
   margin: 0;
   padding: 0;
   font-size: 4rem;
-  color:  green;
+  color: #21bf73;
 }
 
 .btn{
@@ -82,9 +92,11 @@ border: 1px solid;
   font-size: 2rem;
   border-radius: 0.6rem;
   width: 20%;
-  color:white ;
+  color: #21bf73;
 }
-
+.btn:hover{
+  color:white;
+}
 
 /* about part */
 .middle{
@@ -106,7 +118,7 @@ border: 1px solid;
 
 border-radius: 1rem;
 font-family: 'Montserrat', sans-serif;
-color:white;
+color:#21bf73;
 /* #393e46; */
 
 
@@ -157,13 +169,13 @@ p{
 }
 /* footer */
 last{
-  background-color:white;
+  background-color:#21bf73;
   width: 100%;
   height:auto;
   padding-left: 35%;
 }
 .fab{
-color: #0d2c40 ;
+color:#0d2c40;
   padding: 40px 50px 20px 50px;
 
 }
@@ -172,13 +184,14 @@ color: #0d2c40 ;
   padding-bottom: 20px;
   margin-bottom: 0;
   padding-left:0;
-color:#0d2c40 ;
+color:#0d2c40;
 }
 
 .favgit{
 
   padding:5px 0 0 10px;
   margin-right:0;
+  color:#0d2c40;
 }
 
 
@@ -187,24 +200,13 @@ h4{
 
   font-family: monospace;
     font-weight:bolder;
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: 0;
-}
 
-@keyframes example {
-  from {  margin-left: -70%;}
-  to {margin-left: 70%;}
-}
-.favcar{
-  color: #0d2c40;
-  margin: 0;
-  padding: 0;
-  animation-name: example;
-  animation-duration: 18s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
 
 }
+
+
 
 
 @media screen and (max-width: 1200px) {
@@ -212,11 +214,6 @@ h4{
     font-size: 1.7rem;
     margin-left: 30%;
   }
-
-  @keyframes example {
-      from {  margin-left: -90%;}
-      to {margin-left: 90%;}
-    }
 
   .webdev2{
     width:80%;
@@ -265,6 +262,10 @@ margin-top: 8%;
 .btn{
   font-size: 1.5rem;
   width:30%
+}
+.naverig{
+  font-size: 1.5rem;
+  margin-left: 40%;
 }
 }
 
@@ -325,24 +326,22 @@ margin-top: 8%;
     left: 0;
     width: 0;
     height: 15px;
-    background-color: green;
+    background-color: #21bf73;
     border-radius: 1000px;
     animation-duration: .7s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
+    animation-name:
 }
 
 
 #skillli.html:after {
     animation-name: html;
 }
-#skills:hover{
-  animation-duration: .7s;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
-}
+
 
 @keyframes html {
+  from{width: 0;}
     to {
         width: 50%;
     }
