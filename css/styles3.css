@@ -64,51 +64,26 @@ img{
 width:82%;
 margin: 7% 9% 5% 10%;
   height:auto;
-  background-color: #0d2c40;
+  background-color: #21bf73;
   /* #8474d4; */
   /* #5c5191; */
   border-radius: 2rem;
-
+padding-top: 3%;
   font-family: 'Montserrat', sans-serif;
 font-weight: bold;
 }
 
-.headtext{
+.btnpart{
 
-  color:white;
-  font-family: 'Montserrat', sans-serif;
-  padding: 12% 12% 8% 12%;
-    text-align: left;
-  font-size: 3rem;
+  background-color:  #0d2c40;
+  height: 150%;
 }
-
-h6{
-  display:inline-block;
-  margin: 0;
-font-size: 2.5rem;
-}
-h1{
-  font-size: 5rem;
-}
-h5{
-  display:inline-block;
-  margin: 0;
-  font-size: 2.5rem;
-}
-h3{
-  display:inline-block;
-  margin: 0;
-  padding: 0;
-  font-size: 4rem;
-  color:  #21bf73;
-}
-
 .btn{
 border: 1px solid;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   display:block;
-  margin: 10% auto 5% auto;
+  margin: 6% auto 5% auto;
   font-size: 2rem;
   border-radius: 0.6rem;
   width: 45%;
@@ -120,6 +95,7 @@ border: 1px solid;
     color:white;
 }
 
+
 /* footer */
 .last{
   background-color: #21bf73;
@@ -128,16 +104,22 @@ border: 1px solid;
   padding-left: 35%;
 }
 .fab{
+  margin-left: 33%;
 color: #0d2c40 ;
+display: block;
   padding: 40px 50px 20px 50px;
 
 }
 
 .copyright{
-  padding-bottom: 20px;
-  margin-bottom: 0;
-  padding-left:9%;
-color: #0d2c40 ;
+  width: 100%;
+  padding-top:1% ;
+  padding-bottom: 1%;
+  margin:0;
+  margin-top: 6%;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius:  2rem;
+background-color: #0d2c40 ;
 }
 
 .favgit{
@@ -188,4 +170,6 @@ color: #0d2c40 ;
     font-size: 1.5rem;
     margin-left: 40%;
   }
+  .fab{
+    margin-left: 37%;}
 }
